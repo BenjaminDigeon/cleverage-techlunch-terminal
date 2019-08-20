@@ -33,7 +33,7 @@ Note: IHM in French, who use Machine insteed of Computer
 ### Inputs / Outputs
 
 - How to pass data and/or commands to a machine ?
-- How to reveive information from a machine ?
+- How to receive information from a machine ?
 
 ----
 
@@ -43,13 +43,13 @@ Note: IHM in French, who use Machine insteed of Computer
 - Invented in **1725** for the control of a loom.
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-- Then use for playing back performances on a harmonium in **1881**.
+- Then used for playing back performances on a harmonium in **1881**.
 <!-- .element: class="fragment" data-fragment-index="2" -->
 
 - *Herman Hollerith* invented a electromechanical punched card tabulator used in the **1890** United States Census.
 <!-- .element: class="fragment" data-fragment-index="3" -->
 
-- Is company was later amalgamated with others then rename in **1924** the *International Business Machines Corporation*. 
+- His company was later amalgamated with others then renamed in **1924** the *International Business Machines Corporation*. 
 <!-- .element: class="fragment" data-fragment-index="4" -->
 
 Note: So for now we just talk about tabulator, electromechanical computer are invented around 1938, then vacuum tubes and digital electronic circuits in 1942. Principle of the modern computer was proposed by Alan Turing in his seminal 1936 paper and first run in 1948.
@@ -59,16 +59,16 @@ Note: So for now we just talk about tabulator, electromechanical computer are in
 <!-- .slide: data-background="./img/teleprinter-Siemens-t37h.jpg" data-state="dimbg" data-background-opacity="0.4" -->
 #### Teleprinter (TTY)
 
-- Use to replace the morse code, first implementation in 1844.
+- Used to replace the morse code, first implementation in 1844.
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-- A more complex character encoding scheme than
+- A more complex character encoding scheme than Morse code
 <!-- .element: class="fragment" data-fragment-index="2" -->
 
-- One person who know how to to use a keyboard can replace 2 trained Morse code operators
+- One person who knows how to use a keyboard can replace 2 trained Morse code operators
 <!-- .element: class="fragment" data-fragment-index="3" -->
 
-- Also work when no operator is present for the reception
+- Also works when no operator is present for the reception
 <!-- .element: class="fragment" data-fragment-index="4" -->
 
 - Origin of the command-line interface
@@ -86,7 +86,7 @@ Note: A lot of things remain today, TODO
 
 Note: TODO
 
-----
+---
 
 ## UNIX
 
@@ -157,13 +157,13 @@ Note: PID0 system
 ### Users
 
 - Multi-user system
-- A special user call root who is the administrator and have every rights
+- A special user named root who is the administrator and have every rights
 
 ----
 
 ### Permissions
 
-- Each "file" have a owner, a group and some basics ACL
+- Each "file" has an owner, a group and some basics ACL
 - More details in examples
 
 ---
@@ -202,7 +202,7 @@ Note: Read the fucking manual ! Most important command, read any command documen
 
 ----
 
-### Specials characters
+### Special characters
 
 <br />
 
@@ -210,7 +210,8 @@ Note: Read the fucking manual ! Most important command, read any command documen
 .  # the current working directory
 .. # the parent directory to working directory
 ~  # your home directory
-/  # the root (top-level) directory. This is also the separator for directories
+/  # the root (top-level) directory. 
+   # This is also the separator for directories
 *  # a wildcard meaning any string of characters
 ?  # a wildcard meaning any single character
 ```
@@ -273,7 +274,7 @@ Note: ACL: Access Control Lists
 
 ----
 
-### Interupt keys
+### Interrupt keys
 
 - **ctrl C** : interrupts whatever is currently running. 
 - **ctrl Z** : puts a foreground process into the background.
@@ -300,10 +301,10 @@ cat 'doesnotexist.txt' 2>/dev/null
 
 <br />
 
-- A program have always a exit code
+- A program has always an exit code
   - **0** if success
   - **1** to **255** anything else
-- Ready the manual for each program
+- Read the manual for each program
 
 <br />
 
