@@ -79,7 +79,8 @@ Note: So for now we just talk about tabulator, electromechanical computer are in
 Note: Creator of the C programming language and the Unix operating system
 
 ----
-
+<img class="plain" style="background: none" src="./img/Unix_history-simple.svg"/>
+----
 ## Everything is a file
 
 - TODO : Unix explaining
