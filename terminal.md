@@ -83,7 +83,7 @@ Note: Creator of the C programming language and the Unix operating system
 ## Everything is a file
 
 - TODO : Unix explaining
-
+- TODO : Process
 ---
 
 ## Terminal 101
@@ -119,6 +119,8 @@ Note: And a lot of custom configuration
 ----
 
 ## Htop
+
+<img class="plain" style="background: none" src="./img/htop-screenshot.png"/>
 
 ---
 
