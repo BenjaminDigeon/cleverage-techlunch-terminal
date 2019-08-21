@@ -174,7 +174,7 @@ Note: Let's talk about basic usage of the terminal
 
 ### MacOS default Terminal
 
-- TODO : Screenshot of someone default term
+<img class="plain" style="background: none" src="./img/Terminal-Ciré.png"/>
 
 Note: I'm gonna take the example of MacOS for now, 2 options the default and the more advanced terminal
 
