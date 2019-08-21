@@ -9,6 +9,7 @@ revealOptions:
   transition: 'slide'
   slideNumber: 'c/t'
 ---
+
 ## Tech Lunch : Terminal
 
 <br />
@@ -59,22 +60,19 @@ Note: So for now we just talk about tabulator, electromechanical computer are in
 <!-- .slide: data-background="./img/teleprinter-Siemens-t37h.jpg" data-state="dimbg" data-background-opacity="0.4" -->
 #### Teleprinter (TTY)
 
-- Used to replace the morse code, first implementation in 1844.
+- Used to replace the Morse code, first implementation in **1844**.
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-- A more complex character encoding scheme than Morse code
+- A complex character encoding scheme design for machines.
 <!-- .element: class="fragment" data-fragment-index="2" -->
 
-- One person who knows how to use a keyboard can replace 2 trained Morse code operators
+- **One person** who knows how to use a keyboard can replace **2 trained Morse code operators**.
 <!-- .element: class="fragment" data-fragment-index="3" -->
 
-- Also works when no operator is present for the reception
+- Also works when no operator is present for the reception.
 <!-- .element: class="fragment" data-fragment-index="4" -->
 
-- Origin of the command-line interface
-<!-- .element: class="fragment" data-fragment-index="5" -->
-
-Note: A lot of things remain today, TODO
+Note: A lot of things remain today, it's the origin of the command-line interface.
 
 ----
 
@@ -84,7 +82,7 @@ Note: A lot of things remain today, TODO
 - When the CRT screens become available migration from TTY to screen + keyboard
 - Then when graphical interface arrive add the mouse (apple)
 
-Note: TODO
+Note: "glass tty" // TODO
 
 ---
 
