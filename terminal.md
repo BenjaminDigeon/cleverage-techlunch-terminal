@@ -50,7 +50,7 @@ Note: IHM in French, who use Machine insteed of Computer
 - *Herman Hollerith* invented a electromechanical punched card tabulator used in the **1890** United States Census.
 <!-- .element: class="fragment" data-fragment-index="3" -->
 
-- His company was later amalgamated with others then renamed in **1924** the *International Business Machines Corporation*. 
+- His company was later amalgamated with others then renamed in **1924** the *International Business Machines Corporation*.
 <!-- .element: class="fragment" data-fragment-index="4" -->
 
 Note: So for now we just talk about tabulator, electromechanical computer are invented around 1938, then vacuum tubes and digital electronic circuits in 1942. Principle of the modern computer was proposed by Alan Turing in his seminal 1936 paper and first run in 1948.
@@ -60,7 +60,7 @@ Note: So for now we just talk about tabulator, electromechanical computer are in
 <!-- .slide: data-background="./img/teleprinter-Siemens-t37h.jpg" data-state="dimbg" data-background-opacity="0.4" -->
 #### Teleprinter (TTY)
 
-- Used to replace the Morse code, first implementation in **1844**.
+- Used to replace the morse code, first implementation in **1844**.
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 - A complex character encoding scheme design for machines.
@@ -98,7 +98,7 @@ Note: Creator of the C programming language and the Unix operating system
 
 ----
 
-<img class="plain" style="background: white" src="./img/unix-history.png"/>
+<img class="plain" style="background: white" src="./img/Unix_history-simple.svg"/>
 
 Note: History of Unix systems (simplify), today Linux, BSD & MacOS, components architecture
 
@@ -208,7 +208,7 @@ Note: Read the fucking manual ! Most important command, read any command documen
 .  # the current working directory
 .. # the parent directory to working directory
 ~  # your home directory
-/  # the root (top-level) directory. 
+/  # the root (top-level) directory.
    # This is also the separator for directories
 *  # a wildcard meaning any string of characters
 ?  # a wildcard meaning any single character
@@ -274,7 +274,7 @@ Note: ACL: Access Control Lists
 
 ### Interrupt keys
 
-- **ctrl C** : interrupts whatever is currently running. 
+- **ctrl C** : interrupts whatever is currently running.
 - **ctrl Z** : puts a foreground process into the background.
 - **ctrl S** : suspends current terminal
 - **ctrl Q** : resumes current terminal
