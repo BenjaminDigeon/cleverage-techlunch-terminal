@@ -12,8 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install Reveal MD
+      - name: NPM
         uses: bahmutov/npm-install@v1
+
+      - name: Install Reveal MD
         run: npm install -g reveal-md
 
       - name: Build Reveal HTML source
