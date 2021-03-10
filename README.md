@@ -11,4 +11,7 @@ Launch :
 Export to pdf :
 `reveal-md terminal.md --print terminal.pdf`
 
+Export to html :
+`reveal-md terminal.md --static build`
+
 See more at https://github.com/webpro/reveal-md

@@ -1,0 +1,26 @@
+name: Deploy Reveal MD to GH Pages
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    name: Build website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Reveal MD
+        uses: bahmutov/npm-install@v1
+        run: npm install -g reveal-md
+
+      - name: Build Reveal HTML source
+        run: reveal-md terminal.md --static build
+
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
