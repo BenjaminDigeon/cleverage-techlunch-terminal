@@ -23,6 +23,11 @@ jobs:
       - name: Build Reveal HTML source
         run: reveal-md terminal.md --static build
 
+      - name: Copy Assets
+        steps:
+          - run: cp -r img/ build/img
+          - run: cp -r casts build/casts
+
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
