@@ -98,7 +98,7 @@ Note: Creator of the C programming language and the Unix operating system
 
 ----
 
-<img class="plain" style="background: white" src="./img/Unix_history-simple.svg"/>
+<img class="plain" style="background: white" src="img/Unix_history-simple.svg"/>
 
 Note: History of Unix systems (simplify), today Linux, BSD & MacOS, components architecture
 
@@ -107,19 +107,14 @@ Note: History of Unix systems (simplify), today Linux, BSD & MacOS, components a
 ### Architecture
 
 - Kernel
-<!-- .element: class="fragment fade-out" data-fragment-index="1" -->
 
 - Development environment
-<!-- .element: class="fragment fade-out" data-fragment-index="1" -->
 
 - Commands
-<!-- .element: class="fragment grow" data-fragment-index="1" -->
 
 - Documentation
-<!-- .element: class="fragment grow" data-fragment-index="1" -->
 
 - And later a graphical interface
-<!-- .element: class="fragment fade-out" data-fragment-index="1" -->
 
 Note: A Unix type system is a modulary system compose of differents components. A terminal is about commands and documentation. Fun fact : Windows was initialy a command in MS-DOS for launching a graphical interface.
 
@@ -174,7 +169,7 @@ Note: Let's talk about basic usage of the terminal
 
 ### MacOS default Terminal
 
-<img class="plain" style="background: none" src="./img/Terminal-Ciré.png"/>
+<img class="plain" style="background: none" src="img/Terminal-Ciré.png"/>
 
 Note: I'm gonna take the example of MacOS for now, 2 options the default and the more advanced terminal
 
@@ -182,7 +177,7 @@ Note: I'm gonna take the example of MacOS for now, 2 options the default and the
 
 ### iTerm
 
-<img class="plain" style="background: none" src="./img/iterm-ben.png"/>
+<img class="plain" style="background: none" src="img/iterm-ben.png"/>
 
 Note: And a lot of custom configuration
 
@@ -194,7 +189,7 @@ Note: And a lot of custom configuration
 man man
 ```
 
-<asciinema-player src="./casts/man.cast" rows=30 cols=120 poster="npt:0:01"></asciinema-player>
+<asciinema-player src="casts/man.cast" rows=30 cols=120 poster="npt:0:01"></asciinema-player>
 
 Note: Read the fucking manual ! Most important command, read any command documentation
 
@@ -285,7 +280,7 @@ Note: ACL: Access Control Lists
 
 <br />
 
-<img class="plain" style="background: white" src="./img/Stdstreams.svg"/>
+<img class="plain" style="background: white" src="img/Stdstreams.svg"/>
 
 <br />
 
@@ -330,7 +325,7 @@ Note: Pipe explaining in the next slide
 
 ### Piping
 
-<img class="plain" style="background: white" src="./img/Pipeline.svg"/>
+<img class="plain" style="background: white" src="img/Pipeline.svg"/>
 
 Note: `ps -A | grep chrome`
 
