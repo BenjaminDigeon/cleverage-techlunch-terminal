@@ -12,8 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: NPM
-        uses: bahmutov/npm-install@v1
+      - name: Setup node 
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
       - name: Install Reveal MD
         run: npm install -g reveal-md
